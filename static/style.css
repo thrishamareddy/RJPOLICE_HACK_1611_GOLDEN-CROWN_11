@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@600&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.full-flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.full-flex-end{
+
+}
+
+body {
+    background-image: linear-gradient(135deg, #98b0d4 0%, #c3cfe2 100%);
+    height: 100vh;
+
+}
+
+
+.main-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+
+
+}
+
+.main-container h1 {
+    font-size: 3rem;
+    font-family: 'Kanit', sans-serif;
+    color: #353535;
+}
+
+.main-container img {
+    height: 500px;
+    width: 500px;
+}
+
+
+.img-container {
+    display: flex;
+    margin-right: 100px;
+}
+
+.opt-box {
+    display: flex;
+    align-items: center;
+
+}
+
+
+.btn {
+    background-color: #0042a5;
+    color: white;
+    margin: 1rem;
+    font-size: 18px;
+    padding: 8px 30px;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+
+.btn:hover {
+    border: 2px solid #0042a5;
+}
+
+.flex-col {
+    display: flex;
+    flex-direction: column;
+    margin-top: 70px;
+
+}
+
+.login-frm {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.login-frm label {
+    font-size: 18px;
+    font-family: monospace;
+    font-weight: 600;
+}
+
+.frm-itm {
+    margin: 0.52rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.frm-itm input {
+    margin-top: 5px;
+    border: none;
+    font-size: 18px;
+    outline: none;
+    padding: 4px 10px;
+    min-width: 300px;
+    border-radius: 8px;
+    background-color: #f2f2f2;
+}
+
+.sub-btn {
+    margin-top: 5px;
+    border: none;
+    font-size: 16px;
+    outline: none;
+    padding: 8px 10px;
+    text-decoration: none;
+    border-radius: 8px;
+    background-color: #407BFF;
+    cursor: pointer;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    font-family: monospace;
+}
+
+
+#btn_link{             
+    border: none;
+    outline: none;
+    text-decoration: underline;
+    background-color: transparent; 
+    cursor: pointer;
+    font-size: 18px; 
+}
+
+.flexv1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  
+
+}
+
+.login-frm {
+    min-width: 400px;
+}
